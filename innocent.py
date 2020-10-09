@@ -1,12 +1,12 @@
-# CONFIG
-# ---------
-token = "" # To find this, it's harder than it used to be. Please Google the process.
-prefix = "~" # This will be used at the start of commands.
-# ----------
-
-import discord
+import discord, os
 from discord.ext import commands
 # Imports the needed libs.
+
+# CONFIG
+# ---------
+token = sys.argv[1] # To find this, it's harder than it used to be. Please Google the process.
+prefix = "~" # This will be used at the start of commands.
+# ----------
 
 print ("Loading..")
 
