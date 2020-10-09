@@ -1,4 +1,4 @@
-import discord, os
+import discord, sys
 from discord.ext import commands
 # Imports the needed libs.
 
